@@ -1,0 +1,29 @@
+.AddPlayer {
+  margin: 0 auto;
+  width: 270px;
+  margin-bottom: 50px;
+}
+
+.AddPlayer__submit {
+  margin-right: 10px;
+  border-radius: 50%;
+  border: none;
+  height: 33.2px;
+  font-size: 28px;
+  line-height: 33.2px;
+  width: 33.2px;
+  float: right;
+  background: #C0F800;
+  text-align: center;
+}
+
+.AddPlayer__input {
+  height: 33.2px;
+  background: inherit;
+  color: white;
+  font-size: 22px;
+  border: none;
+  border-bottom: 1px solid #FFC600;;
+  width: 200px;
+  text-align: center;
+}

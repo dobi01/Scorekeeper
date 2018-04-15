@@ -1,0 +1,54 @@
+.Player {
+  list-style-type: none;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.Player__name {
+  float: left;
+  background: #FFC600;
+  padding: 0 5px;
+}
+
+.Player::before,
+.Player::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.Player__button, .Player__score {
+  margin-right: 10px;
+  border-radius: 50%;
+  border: none;
+  height: 33.2px;
+  font-size: 28px;
+  line-height: 33.2px;
+  width: 33.2px;
+  float: right;
+  background: #C0F800;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Player__score {
+  background: #FFC600;
+  border-radius: 0%;
+  margin-right: 25px;
+  padding: 0 5px;
+  cursor: text;
+}
+
+.remove {
+  background: #9652DB;
+  font-size: 16px;
+}
+
+.remove:hover {
+  background: #310062;
+  color: white;
+}
+
+.plus:hover, .minus:hover {
+  background: #D6FD4E;
+}
