@@ -1,1 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# Scorekeeper
+
+Kodilla web developer bootcamp
+
+Task 24.6 - learning React components testing using Jest and Enzyme

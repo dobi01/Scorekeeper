@@ -1,6 +1,6 @@
 .AddPlayer {
   margin: 0 auto;
-  width: 270px;
+  width: 300px;
   margin-bottom: 50px;
 }
 
@@ -15,6 +15,7 @@
   float: right;
   background: #C0F800;
   text-align: center;
+  cursor: pointer;
 }
 
 .AddPlayer__input {
@@ -24,6 +25,11 @@
   font-size: 22px;
   border: none;
   border-bottom: 1px solid #FFC600;;
-  width: 200px;
+  width: 230px;
   text-align: center;
+}
+
+.AddPlayer__input::placeholder {
+  color: #ccc;
+  font-family: 'Nova Mono', monospace;
 }
